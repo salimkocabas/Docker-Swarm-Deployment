@@ -21,7 +21,7 @@ services:
       mode: global
       update_config:
         parallelism: 2
-        delay: 5s
+        delay: 6s
         order: start-first
     ports:
       - "80:80"
